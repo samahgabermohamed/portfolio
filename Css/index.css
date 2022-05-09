@@ -255,3 +255,224 @@ height: 4vh;
 }
 
 /* end about */
+/* start contact */
+.CONTACT-ME{
+    float: left;
+    width: 100vw;
+    height:180vh;
+}
+/* start title  */
+.CONTACT-ME h2.title-CONTACT-ME{
+    text-align: center;
+    color:#2c3e50;
+    font-size: 4vw;
+    padding-top: 8% ;
+    }
+.CONTACT-ME .far{
+    line-height: 0;
+}
+.CONTACT-ME #lin3,
+#last-star,#lin4 {
+    color: #2c3e50;
+}
+
+.CONTACT-ME #last-star {
+    margin-top: 2vh;
+    margin-left: 38vw;
+    float: left;
+    font-size: 3vw;
+}
+
+.CONTACT-ME #lin3 {
+    margin-top: -1vh;
+    margin-left: 35.5%;
+    font-size: 9vw;
+    float: left;
+}
+
+.CONTACT-ME #lin4 {
+    margin-top: -1vh;
+    margin-left: 0.5%;
+    font-size: 9vw;
+    float: left;
+} 
+/* end title  */
+
+/* Start Form */
+
+form {
+    /* float: left; */
+    width: 50vw;
+    height: 120vh;
+    margin: 0 0 0 18%;
+}
+
+form .input-group {
+    position: relative;
+    padding: 0;
+    width: 50vw;
+    margin-top: 15%;
+}
+
+input {
+    font-size: 2vw;
+    padding: 4%;
+    margin: 0;
+    display: block;
+    width: 50vw;
+    height: 7vh;
+    border: none;
+    border-bottom: .1vw solid #979696;
+}
+
+.Message textarea:focus,
+input:focus {
+    outline: none;
+}
+
+label {
+    color: #999;
+    font-size: 2vw;
+    width: 50vw;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 1%;
+    top: 2%;
+    transition: 0.2s ease all ;
+}
+
+.Message label {
+    top: 55%;
+}
+
+.Message textarea {
+    top: 0px;
+    font-size: 2vw;
+    padding: 4%;
+    margin: 0;
+    display: block;
+    width: 50vw;
+    height: 22vh;
+    border: none;
+    border-bottom: .1vw solid #757575;
+}
+
+.Message textarea:focus~label,
+.Message textarea:valid~label {
+    top: 8%;
+    font-size: 14px;
+    color: #4285f4;
+}
+
+
+input:focus~label,
+input:valid~label {
+    top: 0%;
+    font-size: 1vw;
+    color: #4285f4;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 50vw;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    bottom: 1px;
+    position: absolute;
+    background: #4285f4;
+    transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+textarea:focus~.bar:before,
+textarea:focus~.bar:after,
+input:focus~.bar:before,
+input:focus~.bar:after {
+    width: 50%;
+}
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 50vw;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+textarea:focus~.highlight,
+input:focus~.highlight {
+    animation: inputHighlighter 0.3s ease;
+}
+
+.background {
+    border-color: rgb(241, 18, 18);
+    background-image: url(../img/mark.jpeg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 1vw;
+}
+
+
+/* animations */
+
+@keyframes inputHighlighter {
+    from {
+        background: #4285f4;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+.submit {
+    background-color: #1abc9c;
+    border-radius: 5%;
+    border: .1vw solid #1abc9c;
+    color: #ffffff;
+    font-size: 2vw;
+    padding: 4% 5%;
+    margin: 2% 0 0 0;
+}
+
+/* Start Form Validation */
+
+.invalid {
+    color: red;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+.submit:disabled {
+    background-color: #6bd3be;
+    border-color: #6bd3be;
+}
+
+.submit:enabled {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+
+/* End Form Validation */
+
+/* End Form */
+
+
+ 
