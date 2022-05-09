@@ -475,5 +475,64 @@ input:focus~.highlight {
 /* End Form */
 
 
+ /*start footer*/
 
- 
+.info {
+    background-color: #2c3e50;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    float: left;
+    height:30vh; 
+    }
+    .info .block1,
+    .info .block2,
+    .info .block3{
+        margin-top:2%;
+        width: 33.3%;
+        float: left;
+    }
+    .info .block1 h3,
+    .info .block2 h3,
+    .info .block3 h3{
+    font-size: 2vw;
+    text-transform: uppercase;
+    }
+    .info .block1 p{
+        margin-top: 6%;
+        padding: 0px 22%;
+    }
+    
+    .info .block3 p
+    {
+        margin-top: 6%;
+        padding: 0px 14%;
+    }
+    .info .block2 i {
+    margin-top: 6%;
+    margin-left: 4%;
+    text-decoration: none;
+    border: solid rgb(255, 255, 255) 0.3vh;
+    border-radius: 50%;
+    padding: 2%;
+    font-size: 1vw;
+    width: 10%;
+    }
+    .info .block2 .fa-facebook-f{
+        margin-left: 1%;
+    }
+    /* start Copyrights */
+    .Copyrights
+    {
+        padding-top: 1.5%;
+        text-align: center;
+        width: 100%;
+        float: left;
+        height: 10vh;
+        background-color:#1e272e ;
+        color: rgb(255, 255, 255);
+        font-size:1.5vw;
+      
+    }
+    
+    /* end Copyrights */
