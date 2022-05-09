@@ -79,3 +79,62 @@ height: 4vh;
  }
 
 /* end nav*/
+/*start difinition*/
+.difinition{
+    background-color: #1abc9c; 
+    height: 100vh;
+    position: relative; 
+}
+.difinition img 
+    {
+    height: 35vh;
+    width: 15vw;
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    }
+.difinition .hidding
+{
+    position: absolute; 
+    top: 62%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color:rgb(255, 255, 255);
+    font-size: 4vw;
+}
+
+.difinition .line1,
+.difinition .fa-star,.difinition .line2 {
+        color: #ffffff;
+    }
+    
+.difinition .fa-star {
+        margin-top: 66vh;
+        margin-left: 1vw;
+        float: left;
+        font-size: 3vw;
+    }
+    
+.difinition .line1 {
+        margin-top: 61vh;
+        margin-left: 35.5%;
+        font-size: 9vw;
+        float: left;
+    }
+    
+ .difinition .line2 {
+        margin-top:61vh;
+        margin-left: 1%;
+        font-size: 9vw;
+        float: left;
+    } 
+.difinition .hidding-2
+    {
+        position: absolute;
+        top:82%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        color:rgb(255, 255, 255);
+        font-size: 1.4vw;
+    } 
+  /* end difinition */
