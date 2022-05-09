@@ -138,4 +138,63 @@ height: 4vh;
         font-size: 1.4vw;
     } 
   /* end difinition */
-  
+  /* start portfolio */
+  .PORTFOLIO{
+    background-color: #ffffff; 
+    height: 120vh;
+    float: left;
+    width: 100vw;
+}
+.PORTFOLIO .head-img{
+    text-align: center;
+    color:#2c3e50;
+    font-size: 4vw;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.PORTFOLIO .bar1,
+.PORTFOLIO .fa-star,.PORTFOLIO .bar2 {
+    color: #2c3e50;
+}
+
+.PORTFOLIO .fa-star {
+    margin-top: 0vh;
+    margin-left: 0.25vw;
+    float: left;
+    font-size: 3vw;
+}
+
+.PORTFOLIO .bar1 {
+    margin-top: -4vh;
+    margin-left: 38.25vw;
+    font-size: 9vw;
+    float: left;
+}
+
+.PORTFOLIO .bar2 {
+    margin-top: -4vh;
+    margin-left: 0.25vw;
+    font-size: 9vw;
+    float: left;
+}
+/* end heading  */
+/* start image  */
+.line-img-1,.line-img-2{
+    float: left;
+    width: 80vw;
+    margin: 1.5vw 10vw;
+}
+.im1,.im2,
+.im3,.im4,
+.im5,.im6{
+    float: left;
+    width: 23vw;
+    border-radius: 2%;
+}
+.im2,.im5{
+    margin: 0 5vw;
+}
+
+/* end image  */
+/* end portfolio */
